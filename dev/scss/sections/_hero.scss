@@ -1,0 +1,14 @@
+#hero{
+    background-image:url("../img/hero/handsaw1.png");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    
+    @include lg{
+        height: 70vh;
+    }
+
+    @include xxl{
+        height: 75vh;
+    }
+}
